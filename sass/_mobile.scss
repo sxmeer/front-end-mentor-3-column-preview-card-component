@@ -1,0 +1,23 @@
+@media (max-width: $mobile-width) {
+  .root {
+    height: 100%;
+    .container {
+      width: 100%;
+      display: flex;
+      margin: 4rem 1rem;
+      flex-direction: column;
+
+      .bright-orange {
+        border-radius: 0;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+      }
+
+      .very-dark-cyan {
+        border-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+      }
+    }
+  }
+}

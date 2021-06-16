@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+.root .container {
+  width: 60%;
+  display: flex;
+}
+.root .container .bright-orange {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  background-color: #e38826;
+}
+.root .container .bright-orange .btn {
+  color: #e38826;
+}
+.root .container .bright-orange .btn:hover {
+  background-color: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+}
+.root .container .dark-cyan {
+  background-color: #006970;
+}
+.root .container .dark-cyan .btn {
+  color: #006970;
+}
+.root .container .dark-cyan .btn:hover {
+  background-color: #006970;
+  color: rgba(255, 255, 255, 0.75);
+}
+.root .container .very-dark-cyan {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: #004241;
+}
+.root .container .very-dark-cyan .btn {
+  color: #004241;
+}
+.root .container .very-dark-cyan .btn:hover {
+  background-color: #004241;
+  color: rgba(255, 255, 255, 0.75);
+}
+.root .container .card {
+  padding: 2.5rem;
+}
+.root .container .card .title {
+  margin-top: 2rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+.root .container .card .desc {
+  margin-top: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+}
+
+.btn {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: white;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2.5rem;
+  margin-top: 4rem;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 375px) {
+  .root {
+    height: 100%;
+  }
+  .root .container {
+    width: 100%;
+    display: flex;
+    margin: 4rem 1rem;
+    flex-direction: column;
+  }
+  .root .container .bright-orange {
+    border-radius: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .root .container .very-dark-cyan {
+    border-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
